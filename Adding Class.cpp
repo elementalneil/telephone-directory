@@ -77,11 +77,11 @@ int SignIn()
 	cout << "\n\n\t\t-----------TELEPHONE DIRECTORY-------------\n\n";
 	cout << "Please Enter Your Username: ";
 	cin >> struname;
-	if (struname=="SNayekAdmin")
+	if (struname=="Admin")
 	{
 		return 2;
 	}
-	if (struname=="ARoyAdmin")
+	if (struname=="admin")
 	{
 		return 3;
 	}
@@ -373,7 +373,7 @@ int main()
 		{
 			yz:
 			pword=d.getpword();
-			if(pword=="1999PassworD")
+			if(pword=="Root")
 			{
 				system("cls");
 				cout << "Admin Signed In\n";
@@ -390,7 +390,7 @@ int main()
 		{
 			vwx:
 			pword=d.getpword();
-			if(pword=="PassWord1$")
+			if(pword=="root")
 			{
 				system("cls");
 				cout << "Admin Signed In\n";
